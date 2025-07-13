@@ -34,7 +34,7 @@ def start():
                 except ValueError:
                     confirm_answer = 0
             
-            confirm_user = input(f"Apakah {name_user} yakin dengan jawabannya? [Y/N] :")
+            confirm_user = input(f"Apakah {name_user} yakin dengan jawabannya? [y/n] :")
             print()
             if confirm_user == "y" :
                 if confirm_answer == gete_position :
@@ -44,7 +44,7 @@ def start():
             elif confirm_user == "n":
                 print(f"Silahkan {name_user} ulangin pilihan jawabannya")
                 
-            play_again = input(f"Apakah {name_user} ingin melanjutkan gamenya lagi? [Y/N] :")
+            play_again = input(f"Apakah {name_user} ingin melanjutkan gamenya lagi? [y/n] :")
             if play_again == 'n':
                 exit_program()
                 print()
