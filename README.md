@@ -15,9 +15,9 @@ The program randomly selects a color. The player must guess the color in a maxim
 4. Select a game by entering the number shown in the menu.
 
 📁 Project Structure
-main.py → Main menu to choose games
-lib.py → Supporting functions for the games
-games/ → Folder containing individual game files
+- main.py → Main menu to choose games
+- lib.py → Supporting functions for the games
+- games/ → Folder containing individual game files
 
 
 Author
